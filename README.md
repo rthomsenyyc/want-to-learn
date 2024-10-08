@@ -1,7 +1,7 @@
 # Demonstration Application  #
 [Github syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-**This application will be a combination demonstration/portfolio and playground. Building an application to showcase my existing React knowledge wasn't as interesting as expanding my skillset to include server components with Next.js and Material UI Joy. While this approach might slow my progress, I find greater enjoyment in learning new technologies than in writing repetitive boilerplate code.** 
+**This application will be a combination demonstration/portfolio and playground. Building an application to showcase my existing React knowledge wasn't as interesting as expanding my skillset to include server components with Next.js. While this approach might slow my progress, I find greater enjoyment in learning new technologies than in writing repetitive boilerplate code.** 
 
 ## Curiosities ##
 - Package size impact (code and libraries)
@@ -18,8 +18,12 @@
 
 ## Packages ##
 
-```shell
+- [React 19](https://19.react.dev/)
+- [Next 15](https://nextjs.org/docs/canary)
 
+-[MUI Joy UI](https://mui.com/joy-ui/getting-started/installation/)
+```shell
+npm install @mui/joy @emotion/react @emotion/styled @fontsource/inter
 ```
 
 
