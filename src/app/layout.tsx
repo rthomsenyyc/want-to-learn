@@ -1,6 +1,7 @@
 import type {Metadata} from "next";
 import {ReactNode} from "react";
 import '@fontsource/inter';
+import ThemeRegistry from "@/components/providers/ThemeRegistry";
 
 
 export const metadata: Metadata = {
@@ -15,7 +16,11 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-        <body>{children}</body>
+        <body>
+        <ThemeRegistry>
+            {children}
+        </ThemeRegistry>
+        </body>
         </html>
     );
 }
